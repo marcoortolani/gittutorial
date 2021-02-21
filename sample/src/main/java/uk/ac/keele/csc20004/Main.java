@@ -11,6 +11,10 @@ package uk.ac.keele.csc20004;
 public class Main {
     public static void main(String[] args) {
       System.out.println("Hello, world!");
+<<<<<<< HEAD
+=======
+      System.out.println("Final message");
+>>>>>>> 4b468ed (Gitpod version)
     }
 }
  
