@@ -4,7 +4,7 @@
 package uk.ac.keele.csc20004;
 
 
-/** Main class. Adding a comment
+/** Main class. Adding a comment. Adding another comment
  *
  * @author Marco Ortolani
  */
