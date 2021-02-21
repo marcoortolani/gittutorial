@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: |
+      mvn clean
+      mvn compile javadoc:javadoc -DskipTests=true
+      theia_url=$(gp url)
+      myurl=https://browser-${theia_url:8}
+      export JAVADOC_URL=$myurl$THEIA_WORKSPACE_ROOT/snakes/target/site/apidocs/index.html
+      gp preview $JAVADOC_URL
